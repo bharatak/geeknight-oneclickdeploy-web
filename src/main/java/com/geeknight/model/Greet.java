@@ -52,4 +52,16 @@ public class Greet implements Serializable{
 	public void setCreatedAt(Date createdAt) {
 		this.createdAt = createdAt;
 	}
+
+	public Long getId() {
+		return Id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public Date getCreatedAt() {
+		return createdAt;
+	}
 }
